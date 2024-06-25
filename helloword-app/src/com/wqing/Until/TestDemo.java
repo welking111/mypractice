@@ -12,11 +12,11 @@ static {
         int[] shuzu = ArraysUntils.getArrays(5);
 
         //用方法输出数组
-        System.out.println(ArraysUntils.toSring(kong));
-        System.out.println(ArraysUntils.toSring(arr1));
-        System.out.println(ArraysUntils.toSring(shuzu));
+        System.out.println(ArraysUntils.toString(kong));
+        System.out.println(ArraysUntils.toString(arr1));
+        System.out.println(ArraysUntils.toString(shuzu));
 ArraysUntils.sortArrays(shuzu);
-        System.out.println(ArraysUntils.toSring(shuzu));
+        System.out.println(ArraysUntils.toString(shuzu));
 
     }
 

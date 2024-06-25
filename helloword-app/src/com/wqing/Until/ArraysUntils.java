@@ -9,7 +9,7 @@ public class ArraysUntils {
     /**
      * 返回数组的内容
      */
-    public static String toSring(int[] arr) {   //数字数组
+    public static String toString(int[] arr) {   //数字数组
 //先进行校验
         if (arr == null) {
             return null;
@@ -24,7 +24,7 @@ public class ArraysUntils {
         return sb.append(" ]").toString();
     }
 
-    public static String toSring(String[] arr) {    //整形数组
+    public static String toString(String[] arr) {    //整形数组
 //先进行校验
         if (arr == null) {
             return null;
