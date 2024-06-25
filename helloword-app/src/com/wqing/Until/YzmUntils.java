@@ -15,11 +15,11 @@ public   class YzmUntils {
 
     /**
      * 返回随即生成的验证码
-     * @param a 返回验证码的位数
+     * @param n 返回验证码的位数
      * @return
      */
-    public static String getYzm(int a){
-        for (int i = 0; i < a; i++) {
+    public static String getYzm(int n){
+        for (int i = 0; i < n; i++) {
             int index=r.nextInt(data.length());
             code +=data.charAt(index);
         }
