@@ -7,4 +7,3 @@ public class HeloWorld {
         System.out.println("你好 world！");
     }
 }
-K
