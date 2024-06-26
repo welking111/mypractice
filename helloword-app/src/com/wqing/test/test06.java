@@ -57,9 +57,11 @@ public class test06 {
                 sum+=moneys[j];
             }
                 if (sum == 0){
-                    System.out.println("没有奖品啦");
+                    System.out.println("没有奖品de啦");
                     return;
                 }
+
+
             }
         }
     }
