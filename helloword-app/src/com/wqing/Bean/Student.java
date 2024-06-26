@@ -1,4 +1,4 @@
-package com.wqing.bean;
+package com.wqing.Bean;
 
 public class Student {
     private String name;

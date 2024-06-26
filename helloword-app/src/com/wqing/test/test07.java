@@ -1,9 +1,9 @@
 package com.wqing.test;
 
-import com.wqing.bean.FoodManager;
-import com.wqing.bean.Movie;
-import com.wqing.bean.Student;
-import com.wqing.bean.StudentOperator;
+import com.wqing.Bean.FoodManager;
+import com.wqing.Bean.Movie;
+import com.wqing.Bean.Student;
+import com.wqing.Bean.StudentOperator;
 
 import java.util.Arrays;
 

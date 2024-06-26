@@ -1,4 +1,4 @@
-package com.wqing.bean;
+package com.wqing.Bean;
 
 public class Food {
     private String name;	//菜品名称

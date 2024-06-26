@@ -1,4 +1,4 @@
-package com.wqing.bean;
+package com.wqing.Bean;
 
 import java.util.ArrayList;
 import java.util.Scanner;

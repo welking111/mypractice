@@ -1,7 +1,7 @@
 package com.wqing.test;
 
-import com.wqing.bean.Movie;
-import com.wqing.bean.MovieOperator;
+import com.wqing.Bean.Movie;
+import com.wqing.Bean.MovieOperator;
 
 import java.util.Scanner;
 
