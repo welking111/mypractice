@@ -1,5 +1,6 @@
 package com.wqing.test;
 
+import com.wqing.bean.FoodManager;
 import com.wqing.bean.Movie;
 import com.wqing.bean.Student;
 import com.wqing.bean.StudentOperator;
@@ -34,6 +35,9 @@ so.show();
         System.out.println(Arrays.toString(strs));
         Arrays.sort(strs);
         System.out.println(Arrays.toString(strs));
+
+FoodManager fm=new FoodManager();
+fm.start();
 
 
     }
