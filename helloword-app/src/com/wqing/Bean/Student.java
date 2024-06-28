@@ -1,11 +1,15 @@
 package com.wqing.Bean;
 
-public class Student {
+public class Student extends  People{
     private String name;
     private String sex;
     private int age;
     private double score;
-
+//实例代码块
+{
+    System.out.println("实例代码块被执行了");
+    System.out.println("有人创建了对象"+this);
+}
     public Student(){
         System.out.println("无参数构造器被执行");
     }
