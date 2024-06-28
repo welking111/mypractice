@@ -1,13 +1,20 @@
 package com.wqing.Bean;
 
 public class Mouse extends Animal {
+    private String name;
     public Mouse(String myName, int myid) {
         super(myName, myid);
+        this.name=myName;
     }
-    @Override
-    public void sleep(){
+    public String getName() {
+        return name;
+    }
 
-        System.out.println(name+"正在睡");
-        System.out.println(name+"还喜欢大睡特睡");
+    public void setName(String name) {
+        this.name = name;
     }
+
+
+
+
 }

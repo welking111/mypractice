@@ -9,6 +9,7 @@ public class JiChengTest {
     public static void main(String[] args) {
         Mouse ms=new Mouse("mike",123);
         ms.eat();
-    ms.sleep();
+        System.out.println(ms.getName());
+
     }
 }
