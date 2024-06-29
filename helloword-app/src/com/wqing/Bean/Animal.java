@@ -1,8 +1,26 @@
 package com.wqing.Bean;
 
-public class Animal {
+public  abstract class Animal {
     private String name;
     private int id;
+
+    public abstract void cry();
+    public  String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
     public Animal(String myName, int myid) {
         name = myName;
         id = myid;
@@ -13,7 +31,15 @@ public class Animal {
     public void sleep(){
         System.out.println(name+"正在睡");
     }
-    public void introduction() {
+    public void printInfo() {
         System.out.println("大家好！我是"         + id + "号" + name + ".");
+    }
+
+    @Override
+    public String toString() {
+        return "Animal{" +
+                "name='" + name + '\'' +
+                ", id=" + id +
+                '}';
     }
 }
