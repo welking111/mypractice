@@ -7,10 +7,20 @@ public class Student extends  People{
     private double score;//成绩
 
 
-//实例代码块
+    @Override
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                ", sex='" + sex + '\'' +
+                ", age=" + age +
+                ", score=" + score +
+                '}';
+    }
+
+    //实例代码块
 {
     System.out.println("实例代码块被执行了");
-    System.out.println("有人创建了对象"+this);
+    System.out.println("有人创建了对象"+this.toString());
 }
     public Student(){
         System.out.println("无参数构造器被执行");
@@ -18,6 +28,13 @@ public class Student extends  People{
     public Student(String name){
         System.out.println("有参数构造器被执行");
 
+    }
+
+    public Student(String name, String sex, int age, double score) {
+        this.name = name;
+        this.sex = sex;
+        this.age = age;
+        this.score = score;
     }
 
     public Student(String name, String sex, double score) {
